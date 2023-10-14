@@ -1,7 +1,3 @@
-Certainly! Below is an example of a README file for your Enterprise Frontend Task Git repository:
-
----
-
 # Enterprise Frontend Task Repository
 
 This repository contains the frontend codebase for an enterprise-level web application. It utilizes various technologies and frameworks to ensure a robust and efficient user interface.
