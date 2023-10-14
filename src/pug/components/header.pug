@@ -1,0 +1,150 @@
+header
+    // NavBar
+    nav
+        // Ticker
+        .container-fluid.ticker
+            ul.nav.justify-content-around.py-1
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text EGX30
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='14' height='15' viewBox='0 0 14 15' fill='#00E277')
+                                    path(d='M6.99999 3.70832L11.9583 11.2917L2.04166 11.2917L6.99999 3.70832Z' fill='#00E277')
+                            span.content.green-content 0.2%
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text USD (CBE)
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' fill='none')
+                                    rect(x='3.14282' y='6.00226' width='8' height='2' fill='white' fill-opacity='0.5')
+                            span.content.gray-content Buy 18.55
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text Tadawul
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='14' height='15' viewBox='0 0 14 15' fill='none')
+                                    path(d='M6.99999 3.70832L11.9583 11.2917L2.04166 11.2917L6.99999 3.70832Z' fill='#00E277')
+                            span.content.green-content 0.05%
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text Tadawul
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' fill='none')
+                                    path(d='M7.42858 11.2917L2.47025 3.70834H12.3869L7.42858 11.2917Z' fill='#FF4B5F')
+                            span.content.red-content 2.3%
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text Brent crude
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' fill='none')
+                                    rect(x='3.57141' y='6.00226' width='8' height='2' fill='white' fill-opacity='0.5')
+                            span.content.gray-content UNCH
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text Euro Stoxx 50
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='14' height='15' viewBox='0 0 14 15' fill='none')
+                                    path(d='M6.99999 3.70832L11.9583 11.2917L2.04166 11.2917L6.99999 3.70832Z' fill='#00E277')
+                            span.content.green-content 0.9%
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text Nasdaq
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' fill='none')
+                                    path(d='M7.85708 11.2917L2.89874 3.70834H12.8154L7.85708 11.2917Z' fill='#FF4B5F')
+                            span.content.red-content 0.41%
+                li.nav-item
+                    a.nav-link(href='#')
+                        span.text BTC
+                        span.indecator
+                            span.icon
+                                svg(xmlns='http://www.w3.org/2000/svg' width='14' height='15' viewBox='0 0 14 15' fill='none')
+                                    path(d='M7.00008 11.2917L2.04175 3.70834H11.9584L7.00008 11.2917Z' fill='#FF4B5F')
+                            span.content.red-content 0.41%
+        // Logo bar
+        .container-fluid
+            .row.logo-bar.align-items-center
+                .col-12.col-md-3.order-2.order-md-1
+                    ul.nav.justify-content-center
+                        li.nav-item.d-md-none(data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                            a.nav-link(href='#')
+                                span.icon
+                                    svg(width='16', height='11', viewBox='0 0 16 11', fill='none')
+                                        path(d='M0.5 0.202103H15.5V1.86877H0.5V0.202103ZM0.5 4.36877H15.5V6.03544H0.5V4.36877ZM0.5 8.53544H15.5V10.2021H0.5V8.53544Z', fill='black')
+                        .nav-item
+                            a.nav-link(href='#')
+                                span.icon
+                                    svg(width='20' height='21' viewBox='0 0 20 21' fill='none')
+                                        path(d='M13.6333 11.8688C13.7 11.3188 13.75 10.7688 13.75 10.2021C13.75 9.63544 13.7 9.08544 13.6333 8.53544H16.45C16.5833 9.06877 16.6667 9.62711 16.6667 10.2021C16.6667 10.7771 16.5833 11.3354 16.45 11.8688M12.1583 16.5021C12.6583 15.5771 13.0417 14.5771 13.3083 13.5354H15.7667C14.9667 14.9104 13.6917 15.9771 12.1583 16.5021ZM11.95 11.8688H8.05C7.96666 11.3188 7.91666 10.7688 7.91666 10.2021C7.91666 9.63544 7.96666 9.07711 8.05 8.53544H11.95C12.025 9.07711 12.0833 9.63544 12.0833 10.2021C12.0833 10.7688 12.025 11.3188 11.95 11.8688ZM10 16.8354C9.30833 15.8354 8.75 14.7271 8.40833 13.5354H11.5917C11.25 14.7271 10.6917 15.8354 10 16.8354ZM6.66666 6.86877H4.23333C5.025 5.48544 6.30833 4.41877 7.83333 3.90211C7.33333 4.82711 6.95833 5.82711 6.66666 6.86877ZM4.23333 13.5354H6.66666C6.95833 14.5771 7.33333 15.5771 7.83333 16.5021C6.30833 15.9771 5.025 14.9104 4.23333 13.5354ZM3.55 11.8688C3.41666 11.3354 3.33333 10.7771 3.33333 10.2021C3.33333 9.62711 3.41666 9.06877 3.55 8.53544H6.36666C6.3 9.08544 6.25 9.63544 6.25 10.2021C6.25 10.7688 6.3 11.3188 6.36666 11.8688M10 3.56044C10.6917 4.56044 11.25 5.67711 11.5917 6.86877H8.40833C8.75 5.67711 9.30833 4.56044 10 3.56044ZM15.7667 6.86877H13.3083C13.0417 5.82711 12.6583 4.82711 12.1583 3.90211C13.6917 4.42711 14.9667 5.48544 15.7667 6.86877ZM10 1.86877C5.39166 1.86877 1.66666 5.61877 1.66666 10.2021C1.66666 12.4122 2.54464 14.5319 4.10744 16.0947C4.88126 16.8685 5.79992 17.4823 6.81097 17.9011C7.82202 18.3199 8.90565 18.5354 10 18.5354C12.2101 18.5354 14.3298 17.6575 15.8926 16.0947C17.4554 14.5319 18.3333 12.4122 18.3333 10.2021C18.3333 9.10776 18.1178 8.02413 17.699 7.01308C17.2802 6.00203 16.6664 5.08337 15.8926 4.30955C15.1187 3.53573 14.2001 2.9219 13.189 2.50311C12.178 2.08432 11.0943 1.86877 10 1.86877',fill='black')
+                                span.mx-2 En
+                                span.icon
+                                    svg(width='16' height='17' viewBox='0 0 16 17' fill='none')
+                                        path(d='M4.94 5.9221L8 8.9821L11.06 5.9221L12 6.86877L8 10.8688L4 6.86877L4.94 5.9221Z' fill='black')
+                        li.nav-item
+                            a.nav-link(href='#')
+                                span.icon
+                                    svg(width='20', height='21', viewBox='0 0 20 21', fill='none')
+                                        path(d='M7.91667 2.7021C9.35326 2.7021 10.731 3.27279 11.7468 4.28861C12.7627 5.30443 13.3333 6.68218 13.3333 8.11877C13.3333 9.46044 12.8417 10.6938 12.0333 11.6438L12.2583 11.8688H12.9167L17.0833 16.0354L15.8333 17.2854L11.6667 13.1188V12.4604L11.4417 12.2354C10.4917 13.0438 9.25833 13.5354 7.91667 13.5354C6.48008 13.5354 5.10233 12.9648 4.0865 11.9489C3.07068 10.9331 2.5 9.55536 2.5 8.11877C2.5 6.68218 3.07068 5.30443 4.0865 4.28861C5.10233 3.27279 6.48008 2.7021 7.91667 2.7021ZM7.91667 4.36877C5.83333 4.36877 4.16667 6.03544 4.16667 8.11877C4.16667 10.2021 5.83333 11.8688 7.91667 11.8688C10 11.8688 11.6667 10.2021 11.6667 8.11877C11.6667 6.03544 10 4.36877 7.91667 4.36877Z', fill='black')
+                                span Search
+
+                .col-12.col-md-6.d-flex.flex-wrap.justify-content-center.pt-3.pb-1.py-md-3.order-1.order-md-2
+                    div.logo-dropdowns.w-100.mb-1
+                        ul.nav.justify-content-center
+                            li.nav-item
+                                a.nav-link(href='#')
+                                    span Egypt edition
+                                    span.icon
+                                        svg(xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' fill='#8D8D8D')
+                                            path(d='M4.3225 5.005L7 7.6825L9.6775 5.005L10.5 5.83334L7 9.33334L3.5 5.83334L4.3225 5.005Z')
+                            li.nav-item
+                                a.nav-link(href='#')
+                                    span Enterprise for your industry
+                                    span.icon
+                                        svg(xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' fill='#8D8D8D')
+                                            path(d='M4.3225 5.005L7 7.6825L9.6775 5.005L10.5 5.83334L7 9.33334L3.5 5.83334L4.3225 5.005Z')
+                    .logo-container
+                        img(src='assets/images/general/logo.png', class='img-fluid',alt="logo-image")
+                .col-12.col-md-3.d-flex.justify-content-center.align-items-center.order-3
+                    button.btn
+                        svg(xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21' fill='none')
+                            path(d='M9.99998 3.53543C10.884 3.53543 11.7319 3.88662 12.357 4.51174C12.9821 5.13686 13.3333 5.98471 13.3333 6.86876C13.3333 7.75282 12.9821 8.60067 12.357 9.22579C11.7319 9.85091 10.884 10.2021 9.99998 10.2021C9.11592 10.2021 8.26808 9.85091 7.64296 9.22579C7.01784 8.60067 6.66665 7.75282 6.66665 6.86876C6.66665 5.98471 7.01784 5.13686 7.64296 4.51174C8.26808 3.88662 9.11592 3.53543 9.99998 3.53543ZM9.99998 11.8688C13.6833 11.8688 16.6666 13.3604 16.6666 15.2021V16.8688H3.33331V15.2021C3.33331 13.3604 6.31665 11.8688 9.99998 11.8688Z', fill='black')
+                            // Add other path elements in a similar manner
+                        | Sign In
+                    button.btn.green-btn Subscribe
+        // nav menu
+        .container
+            nav.navbar.navbar-expand-lg.mt-3.mt-md-0
+                .collapse.navbar-collapse#navbarSupportedContent
+                    ul.navbar-nav.mx-auto
+                        li.nav-item
+                            a.nav-link(href='#') Business
+                        li.nav-item
+                            a.nav-link(href='#') Regulation
+                        li.nav-item
+                            a.nav-link(href='#') Startups
+                        li.nav-item
+                            a.nav-link(href='#') Companies
+                        li.nav-item
+                            a.nav-link(href='#') Industries
+                        li.nav-item
+                            a.nav-link(href='#') Enterprise for your industry
+                        li.nav-item
+                            a.nav-link(href='#') Newsmakers
+                        li.nav-item
+                            a.nav-link(href='#') Explainers
+                        li.nav-item
+                            a.nav-link(href='#') Data
+                        li.nav-item
+                            a.nav-link(href='#') Archives
+                        li.nav-item
+                            a.nav-link(href='#') Talkshows
+                        li.nav-item
+                            a.nav-link(href='#') Lifestyle
+

@@ -1,0 +1,114 @@
+extends ../layouts/main
+
+block content
+    // News Section
+    section.news-section.container.mt-0.mt-md-3
+        .row
+            .col-12.col-md-3
+                .section-logo-container.mb-3.text-center
+                    img.img-fluid.mt-2(src='assets/images/general/logo-am.png',alt="logo-image")
+                    small.text-muted.d-block.text-center.mt-1 Thursday, 14 April 2022
+                    button.btn.green-btn.mt-3.w-100 Read the full issue
+                    svg(xmlns='http://www.w3.org/2000/svg' width='19' height='18' viewBox='0 0 19 18' fill='none')
+                        path(d='M3.5 8.25V9.75H12.5L8.375 13.875L9.44 14.94L15.38 9L9.44 3.06L8.375 4.125L12.5 8.25H3.5Z' fill='white')
+                .section-colm
+                    h3.section-colm-title TL;DR
+                    .text-news-container
+                    .text-news-item
+                        h3.title Economy
+                        p.content Progress in IMF talks, but disagreements remain, says Maait
+                    .text-news-item
+                        h3.title Economy
+                        p.content 10 EGX stake sales this year? The gov’t still thinks it’s possible.
+                    .text-news-item
+                        h3.title Debt Watch
+                        p.content CIRA’s maiden future flow issuance could close next month.
+                    .text-news-item
+                        h3.title Development Finance
+                        p.content British International Investment to invest USD 6 bn in Africa in coming 5 years ⁠— and some of it should be coming our way.
+                    .text-news-item
+                        h3.title What We’re Tracking Today
+                        p.content Fed delivers another super-sized rate hike ⁠— and there could be more coming.
+            .col-12.col-md-6
+                h2.main-news-item-title Progress in IMF talks, but disagreements remain, says Maait
+                p.main-news-item-content Egypt is working to resolve differences with the IMF in talks for a fresh assistance program, Finance Minister Mohamed Maait said in a round of interviews yesterday.
+                img.img-fluid(src='assets/images/general/main-news-image.png',alt="news-image")
+            .col-12.col-md-3.mt-3.mt-md-0
+                .section-colm
+                    h3.section-colm-title Editor’s choice
+                    .row
+                        .col-12
+                            .image-news-item
+                                img.img-fluid.item-image(src='assets/images/general/image-news-1.png',alt="news-image")
+                                h4.item-title.mt-2 Biden Says Any Saudi Visit Would Focus on More Than Energy...
+                        .col-6
+                            .image-news-item
+                                img.img-fluid.item-image(src='assets/images/general/image-news-2.png',alt="news-image")
+                                h4.item-title.mt-2 Live news updates: Inditex profit..
+                        .col-6
+                            .image-news-item
+                                img.img-fluid.item-image(src='assets/images/general/image-news-3.png',alt="news-image")
+                                h4.item-title.mt-2 Combative Merkel denies appeasing...
+                        .col-12
+                            .news-card
+                                h4.news-card-title Get 
+                                    span.fw-bold Enterprise 
+                                    | daily
+                                p.news-card-content The roundup of news and trends that move your markets and shape corporate agendas delivered straight to your inbox.
+                                button.btn.green-btn
+                                    svg(xmlns='http://www.w3.org/2000/svg' width='18' height='19' viewBox='0 0 18 19' fill='none')
+                                    path(d='M15 6.32031L9 10.0703L3 6.32031V4.82031L9 8.57031L15 4.82031M15 3.32031H3C2.1675 3.32031 1.5 3.98781 1.5 4.82031V13.8203C1.5 14.2181 1.65804 14.5997 1.93934 14.881C2.22064 15.1623 2.60218 15.3203 3 15.3203H15C15.3978 15.3203 15.7794 15.1623 16.0607 14.881C16.342 14.5997 16.5 14.2181 16.5 13.8203V4.82031C16.5 3.98781 15.825 3.32031 15 3.32031Z' fill='white')
+                                    |  Subscribe Here 
+
+    
+    // Carousel Section
+    section.carousel-section.container.my-3
+        h2.carousel-section-title.text-center
+            span Enterprise for your industry
+        p.carousel-section-desc Our verticals take an in-depth view of your industry, expertly tackling the issues that shape your business
+            .carousel-cards-container.owl-carousel.px-5
+                .carousel-card.carousel-card-green
+                    img.img-fluid.carousel-card-image(src='assets/images/carousel/image-1.png',alt="card-image")
+                    p.carousel-card-hint Egypt wants to become a leader in green hydrogen — private players plan to make it happen
+                    button.btn.carousel-card-btn Read 
+                        svg(width='18', height='19', viewBox='0 0 18 19', fill='none')
+                        path(d='M3 13.5635V15.0635H12H12.879H15.5623L14.88 14.3135L10.043 9.4765L8.97802 10.5415L12 13.5635H3Z', fill='#434343')
+                .carousel-card.carousel-card-orange
+                    img.img-fluid.carousel-card-image(src='assets/images/carousel/image-2.png',alt="card-image")
+                    p.carousel-card-hint What’s next for Nigeria’s startup ecosystem — and how can startups expand there?
+                    button.btn.carousel-card-btn Read 
+                        svg(width='18', height='19', viewBox='0 0 18 19', fill='none')
+                        path(d='M3 13.5635V15.0635H12H12.879H15.5623L14.88 14.3135L10.043 9.4765L8.97802 10.5415L12 13.5635H3Z', fill='#434343')
+                .carousel-card.carousel-card-black
+                    img.img-fluid.carousel-card-image(src='assets/images/carousel/image-3.png',alt="card-image")
+                    p.carousel-card-hint As a sector, the normally-defensive education industry is tracking the wider market
+                    button.btn.carousel-card-btn Read 
+                        svg(width='18', height='19', viewBox='0 0 18 19', fill='none')
+                        path(d='M3 13.5635V15.0635H12H12.879H15.5623L14.88 14.3135L10.043 9.4765L8.97802 10.5415L12 13.5635H3Z', fill='#434343')
+                .carousel-card.carousel-card-yellow
+                    img.img-fluid.carousel-card-image(src='assets/images/carousel/image-4.png',alt="card-image")
+                    p.carousel-card-hint How Egypt compared to global and regional infrastructure PPP trends in 2021
+                    button.btn.carousel-card-btn Read 
+                        svg(width='18', height='19', viewBox='0 0 18 19', fill='none')
+                        path(d='M3 13.5635V15.0635H12H12.879H15.5623L14.88 14.3135L10.043 9.4765L8.97802 10.5415L12 13.5635H3Z', fill='#434343')
+                .carousel-card.carousel-card-green
+                    img.img-fluid.carousel-card-image(src='assets/images/carousel/image-1.png',alt="card-image")
+                    p.carousel-card-hint Egypt wants to become a leader in green hydrogen — private players plan to make it happen
+                    button.btn.carousel-card-btn Read 
+                        svg(width='18', height='19', viewBox='0 0 18 19', fill='none')
+                        path(d='M3 13.5635V15.0635H12H12.879H15.5623L14.88 14.3135L10.043 9.4765L8.97802 10.5415L12 13.5635H3Z', fill='#434343')
+    // Subscribe Section
+    section.subscripe-section.container.my-3
+        .row.justify-content-center
+            .col-11.col-md-6
+                .subscripe-card.text-center
+                    h2.title
+                        | Get 
+                        span Enterprise 
+                        | daily
+                    p.desc The roundup of news and trends that move your markets and shape corporate agendas delivered straight to your inbox.
+                    button.btn.d-flex.mx-auto.align-items-center
+                        svg(width='19', height='18', viewBox='0 0 19 18', fill='none')
+                            path(d='M15.5 6L9.5 9.75L3.5 6V4.5L9.5 8.25L15.5 4.5M15.5 3H3.5C2.6675 3 2 3.6675 2 4.5V13.5C2 13.8978 2.15804 14.2794 2.43934 14.5607C2.72064 14.842 3.10218 15 3.5 15H15.5C15.8978 15 16.2794 14.842 16.5607 14.5607C16.842 14.2794 17 13.8978 17 13.5V4.5C17 3.6675 16.325 3 15.5 3Z', fill='black')
+                        span.mx-1
+                            | Subscribe now
