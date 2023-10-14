@@ -23,7 +23,7 @@ This repository contains the frontend codebase for an enterprise-level web appli
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/KareemMostafa77/enterprise-frontend-task.git
+git clone https://github.com/KareemMostafa77/Enterprise.git
 ```
 
 2. Install dependencies:
